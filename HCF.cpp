@@ -16,7 +16,9 @@ int main() {
 }
 
 int gcd(int a, int b){
-	if (b == 0)return a;
+	if (b == 0){
+		return a;
+	}
 	else{
 		gcd(a, a%b);
 	}	
